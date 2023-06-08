@@ -1,6 +1,6 @@
 package ex05.ch02;
 
-public class DarkTempler {
+public class DarkTempler extends ProtossUnit {
     String name;
     int hp;
     int attack;
@@ -11,4 +11,20 @@ public class DarkTempler {
         this.attack = attack;
     }
 
+    @Override
+    public int getHp() {
+        return hp;
+    }
+
+    public void setHp(int hp) {
+        this.hp = hp;
+    }
+
+    public int getAttack() {
+        return attack;
+    }
+
+    public String getName() {
+        return name;
+    }
 }
