@@ -29,8 +29,9 @@ class Person {
 
         @Override
         public String toString() {
-            return "Employee[id=" + id + " name=" + name + "]";
+            return "Employee [id=" + id + " name=" + name + "]";
         }
+
     }
 
     // -----------------------------------------------------------------------------------
@@ -39,7 +40,6 @@ class Person {
 
             Employee e = new Employee("만채", "1538");
             System.out.println(e);
-
         }
     }
 }

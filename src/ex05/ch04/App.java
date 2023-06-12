@@ -15,5 +15,6 @@ public class App {
         ProtossUnit d1 = new Dragoon("드라1", 100, 10);
 
         attack(z1, d1);
+        attack(z1, d1);
     }
 }
