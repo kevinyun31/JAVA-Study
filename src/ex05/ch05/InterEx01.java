@@ -39,6 +39,7 @@ public class InterEx01 {
     public static void main(String[] args) {
         CarAble carAble = new Car();
         carAble.엑셀();
+        carAble.엑셀();
 
     }
 }
