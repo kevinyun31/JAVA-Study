@@ -13,7 +13,7 @@
 
 ## Github 업로드하기
 
-- git remote add origtin https://github.com/rkawkclsrn/JAVA-Study.git
+- git remote add origin https://github.com/rkawkclsrn/JAVA-Study.git
   origin을 origtin 으로 오타냄
 - git push origin master
 
