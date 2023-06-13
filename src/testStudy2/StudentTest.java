@@ -26,7 +26,7 @@ public class StudentTest {
         Student obj = new Student();
         // obj.regNumber = "658465416" // 주민번호는 String 으로써 " " 안에 적는다
         // obj.weight = 75.0; // 주민번호와 동일 하게 부모 클래스에서 private를 걸어 놔서 사용 못한다.
-        obj.age = 18;
+        obj.age = 19;
         obj.name = "홍은채";
         obj.setWeight(45);
         obj.getWeight();

@@ -14,7 +14,7 @@
 ## Github 업로드하기
 
 - git remote add origin https://github.com/rkawkclsrn/JAVA-Study.git
-  origin을 origtin 으로 오타냄
+  origin을 origtin 으로 오타냄 - remove -rm
 - git push origin master
 
 ## 다시 업로드 법
