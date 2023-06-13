@@ -11,5 +11,6 @@ public class ExApp02 {
         BugerSet bs = new BugerSet(b1, c1, p1);
         BugerSet bs2 = new BugerSet();
         BugerSet bs3 = new BugerSet();
+        BugerSet bs4 = new BugerSet();
     }
 }
