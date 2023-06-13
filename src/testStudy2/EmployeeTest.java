@@ -39,7 +39,6 @@ class Person {
 
             Employee e = new Employee("만채", "1538");
             System.out.println(e);
-
         }
     }
 }
