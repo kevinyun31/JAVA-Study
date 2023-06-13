@@ -9,37 +9,36 @@ class Person {
     public Person(String theName) {
         this.name = theName;
     }
+}
 
-    // ----------------------------------------------------------------------------
-    class Employee extends Person {
-        String id;
+// ----------------------------------------------------------------------------
+class EmployeeBaby extends Person {
+    String id;
 
-        public Employee() {
-            super();
-        }
-
-        public Employee(String name) {
-            super(name);
-        }
-
-        public Employee(String name, String id) {
-            super(name);
-            this.id = id;
-        }
-
-        @Override
-        public String toString() {
-            return "Employee [id=" + id + " name=" + name + "]";
-        }
-
+    public EmployeeBaby() {
+        super();
     }
 
-    // -----------------------------------------------------------------------------------
-    public class EmployeeTest {
-        public static void main(String[] args) {
+    public EmployeeBaby(String name) {
+        super(name);
+    }
 
-            Employee e = new Employee("만채", "1538");
-            System.out.println(e);
-        }
+    public EmployeeBaby(String name, String id) {
+        super(name);
+        this.id = id;
+    }
+
+    @Override
+    public String toString() {
+        return "Employee [id=" + id + " name=" + name + "]";
+    }
+
+}
+// -----------------------------------------------------------------------------------
+
+public class EmployeeTest {
+    public static void main(String[] args) {
+        EmployeeBaby e = new EmployeeBaby("만채", "1538");
+        System.out.println(e);
     }
 }

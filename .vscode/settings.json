@@ -4,7 +4,7 @@
     "java.project.referencedLibraries": [
         "lib/**/*.jar"
     ],
-    "editor.fontSize": 15,
+    "editor.fontSize": 14,
     "editor.lineHeight": 1.2,
     "java.debug.settings.onBuildFailureProceed": true
   

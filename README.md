@@ -14,13 +14,12 @@
 ## Github 업로드하기
 
 <<<<<<< HEAD
+
 - git remote add origin https://github.com/rkawkclsrn/JAVA-Study.git
   origin을 origtin 으로 오타냄 .원격 저장소 삭제 명령은 간단하다.
   git remote remove origtin으로 삭제함.
-=======
-- git remote add origtin https://github.com/rkawkclsrn/JAVA-Study.git
-  origin을 origtin 으로 오타냄
->>>>>>> 0d8ec307729467a5f1817d9dd33642c8c49692d7
+- git pull origin master
+  다른 곳에서 내 github를 거드리면 pull해줘서 동기화 시켜줘야 한다.
 - git push origin master
 
 ## 다시 업로드 법
