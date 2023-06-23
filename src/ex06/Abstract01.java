@@ -1,5 +1,7 @@
 package ex06;
 
+import javax.sound.sampled.SourceDataLine;
+
 /**
  * 1. 추상클래스는 new 할 수 없다.
  * 2. 추상클래스는 일반메서드와 추상메서드를 가질 수 있다.
