@@ -2,8 +2,8 @@
 
 ## Git 로컬 컴퓨터에서 사용자 등록하기
 
-- git config --global user.name "rkawkclsrn"
-- git config --global user.email "rkawkclsrn@naver.com"
+- git config --global user.name "kevinyun31"
+- git config --global user.email "kevinyun31@gmail.com"
 
 ## Git 시작하기
 
@@ -16,10 +16,10 @@
 <<<<<<< HEAD
 
 - git remote add origin https://github.com/rkawkclsrn/JAVA-Study.git
-  origin을 origtin 으로 오타냄 .원격 저장소 삭제 명령은 간단하다.
+  <!-- origin을 origtin 으로 오타냄 .원격 저장소 삭제 명령은 간단하다.
   git remote remove origtin으로 삭제함.삭제 후 전체 내려받기
   (- git pull origin master) 재 정의 시에만 사용.
-  다른 곳에서 내 github를 거드리면 pull해줘서 동기화 시켜줘야 한다.
+  다른 곳에서 내 github를 거드리면 pull해줘서 동기화 시켜줘야 한다. -->
 - git push origin master
 
 ## 다시 업로드 법
